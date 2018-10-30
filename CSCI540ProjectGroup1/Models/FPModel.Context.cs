@@ -13,10 +13,10 @@ namespace CSCI540ProjectGroup1.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class FinalProjectDBEntities : DbContext
+    public partial class FinalProjectDBEntities01 : DbContext
     {
-        public FinalProjectDBEntities()
-            : base("name=FinalProjectDBEntities")
+        public FinalProjectDBEntities01()
+            : base("name=FinalProjectDBEntities01")
         {
         }
     

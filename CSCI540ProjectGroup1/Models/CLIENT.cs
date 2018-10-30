@@ -35,5 +35,7 @@ namespace CSCI540ProjectGroup1.Models
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<APPOINTMENT> APPOINTMENTs { get; set; }
+        //This will give the connection to visual basic's user table
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }

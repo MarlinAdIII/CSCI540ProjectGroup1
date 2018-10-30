@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="ae1351585dc64fe9ba00fcd657614f7b" Name="Diagram1">
+      <Diagram DiagramId="49b545e45dec4781af93224b728a41aa" Name="Diagram1">
         <EntityTypeShape EntityType="FinalProjectDBModel.C__MigrationHistory" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="FinalProjectDBModel.APPOINTMENT" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
         <EntityTypeShape EntityType="FinalProjectDBModel.AspNetRole" Width="1.5" PointX="9.75" PointY="9.5" IsExpanded="true" />
@@ -35,8 +35,8 @@
         <AssociationConnector Association="FinalProjectDBModel.FK_APPOINTMENT_CLIENT" ManuallyRouted="false" />
         <AssociationConnector Association="FinalProjectDBModel.FK_APPOINTMENT_STYLE" ManuallyRouted="false" />
         <AssociationConnector Association="FinalProjectDBModel.FK_JOBDONE_APPOINTMENT" ManuallyRouted="false" />
-        <AssociationConnector Association="FinalProjectDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
-        <AssociationConnector Association="FinalProjectDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_AspNetUserClaims_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_AspNetUserLogins_AspNetUsers_UserId" ManuallyRouted="false" />
         <AssociationConnector Association="FinalProjectDBModel.FK_JOBEXECUTER_BRAIDER" ManuallyRouted="false" />
         <AssociationConnector Association="FinalProjectDBModel.FK_SKILLS_BRAIDER" ManuallyRouted="false" />
         <AssociationConnector Association="FinalProjectDBModel.FK_CATALOG_PRODUCT" ManuallyRouted="false" />

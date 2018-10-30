@@ -24,9 +24,12 @@ namespace CSCI540ProjectGroup1.Models
         public string EmailComp { get; set; }
         public string WebsiteComp { get; set; }
         public Nullable<double> PartPayeBraid { get; set; }
-        public string IDOwnerBraider { get; set; }
+        public Nullable<int> IDOwnerBraider { get; set; }
         public Nullable<decimal> CostHairDeduct { get; set; }
         public Nullable<byte> PercentBrader { get; set; }
         public Nullable<decimal> PriceTakeOff { get; set; }
+
+        //This will give the connection to the BRAIDER table
+        public virtual BRAIDER BRAIDER { get; set; }
     }
 }

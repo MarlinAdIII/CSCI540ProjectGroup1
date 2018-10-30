@@ -37,5 +37,8 @@ namespace CSCI540ProjectGroup1.Models
         public virtual ICollection<JOBEXECUTER> JOBEXECUTERs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SKILL> SKILLS { get; set; }
+
+        //This will give the connection to visual basic's user table
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }
